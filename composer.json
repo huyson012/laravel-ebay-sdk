@@ -1,0 +1,24 @@
+{
+    "name": "shhl/laravel-ebay-sdk",
+    "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
+    "type": "library",
+    "keywords": ["ebay", "api", "sdk", "laravel", "laravel5", "php"],
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.5",
+        "sonhh/ebay-sdk": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SonHH",
+            "email": "hahuyson@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "SHHL\\LaravelEbay\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
