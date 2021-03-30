@@ -39,4 +39,8 @@ class Ebay
         $this->config['siteId'] = isset($args['siteId'])?$args['siteId']:$this->config['siteId'];
         return $this->config;
     }
+
+    public function getRuName(){
+        return config('ebay.'.config('ebay.mode').'.ruName');
+    }
 }
